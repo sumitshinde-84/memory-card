@@ -1,0 +1,37 @@
+.divider{
+    width: 100vw;
+    height: 30px;
+    background-color: rgb(56, 56, 56);;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-circle-2nd-last{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-circle{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 5px solid rgb(56, 56, 56);
+}

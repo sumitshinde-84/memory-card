@@ -1,0 +1,9 @@
+.header {
+  background-color: rgb(239, 14, 61);
+  width: 100vw;
+  height: 270px;
+  background-image: url("../../images/Pokemon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
