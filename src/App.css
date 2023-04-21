@@ -3,3 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.main{
+    background-color:  rgb(238, 238, 238);;
+    position: relative;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}

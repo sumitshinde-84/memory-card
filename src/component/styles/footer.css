@@ -1,0 +1,19 @@
+.footer{
+    width: 100vw;
+    height: 30px;
+    background-color: rgb(56, 56, 56);;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer a{
+    color:  rgb(238, 238, 238);
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 2px;
+    
+}
