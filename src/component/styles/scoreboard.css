@@ -1,0 +1,20 @@
+.scoreboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 40px;
+    padding: 20px;
+    justify-content: space-around;
+    
+
+}
+
+
+
+.scoreboard div:first-child{
+    background-color: rgb(255, 181, 181);;
+}
+
+.scoreboard div:last-child{
+    background-color: rgb(181, 255, 181);
+}

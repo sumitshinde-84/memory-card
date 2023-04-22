@@ -4,8 +4,10 @@ import Footer from "./component/footer";
 import "./App.css"
 import Container from "./component/container";
 import Loader from "./component/loader";
+import ScoreBoard from "./component/scoreBoard";
 const App = () =>{
-
+  const [status,setStatus] = useState(null)
+  const [imgCollection,setImgCollection]  = useState([])
   useEffect(()=>{
     setTimeout(()=>{
       document.querySelector('section').style.display="none"
@@ -13,12 +15,20 @@ const App = () =>{
 
   },[])
 
+  const StatusManager= (statusRight,imgCollection)=>{
+    
+    setStatus(statusRight)
+    setImgCollection(imgCollection)
+    console.log(status)
+  }
+
 
   return(
     <div className="main">
       <Loader/>
       <Header/>
-      <Container/>
+      <ScoreBoard status={status} imgCollection={imgCollection}/>
+      <Container StatusManager={StatusManager}/>
       <Footer/>
     </div>
   )
