@@ -11,7 +11,7 @@ const App = () =>{
   useEffect(()=>{
     setTimeout(()=>{
       document.querySelector('section').style.display="none"
-    },100)
+    },6000)
 
   },[])
 
