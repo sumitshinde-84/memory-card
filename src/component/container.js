@@ -35,16 +35,19 @@ const Container = ({ StatusManager }) => {
   const [choosedId, setChoosedId] = useState([]);
 
   useEffect(() => {
-    ;
     setRightStatus(rightStatus);
     setImgCollection(imgCollection);
-    StatusManager(rightStatus,imgCollection);
-    
-    if(rightStatus==true){
-      setChoosedId([])
-    }else{
-      setChoosedId(choosedId)
+    StatusManager(rightStatus, imgCollection);
+
+    if (rightStatus === true) {
+      setChoosedId([]);
+    } else {
+      setChoosedId(choosedId);
     }
+    
+
+    
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [imgCollection, rightStatus, choosedId]);
 
   const shuffleArray = () => {
